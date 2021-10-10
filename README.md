@@ -3,6 +3,24 @@
 в репозиторий реализует базу данных студии самозаписи
 ER диаграмма базы данныз
 ![ER диаграмма](https://git.miem.hse.ru/19107/database/-/raw/master/ER.png)  
+## Иерархия  
+```
+.  
+|   README.md
+|   ER.png
+|───images
+|   |   add_server.png
+|   |   server_settings.png
+|   
+|───db
+    |   docker-compose.yml
+    |   
+    |───database
+        |   Dockerfile
+        |
+        |───initSQL
+            |   init.sql   
+```
 ## Ссылки для работы  
 * pgAdmin: http://localhost:5050/browser
 * postgresql: http://localhost:5432/
